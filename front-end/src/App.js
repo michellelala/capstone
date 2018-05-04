@@ -3,7 +3,7 @@ import logo from "./Images/logo.svg";
 import { Route, Link, Switch, Redirect } from "react-router-dom";
 import axios from "axios";
 import "./Stylesheets/App.css";
-// import "./Stylesheets/Navbar.css";
+import "./Stylesheets/Navbar.css";
 import "./Stylesheets/Feed.css";
 
 import NewUser from "./Users/NewUser";

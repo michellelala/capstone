@@ -3,7 +3,7 @@ import axios from "axios";
 import { Link, Redirect } from "react-router-dom";
 import MatchedBuddies from "../LoggedInUser/FEED/MatchedBuddies";
 import "../Stylesheets/App.css";
-// import "../Stylesheets/Navbar.css";
+import "../Stylesheets/Navbar.css";
 import "../Stylesheets/Login.css";
 import "../Stylesheets/survey.css";
 import PlacesAutocomplete, {
