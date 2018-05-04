@@ -3,7 +3,7 @@ const passport = require("passport");
 const LocalStrategy = require("passport-local").Strategy;
 const init = require("./passport");
 const pgp = require("pg-promise")({});
-const db = pgp("postgres://localhost/feathers");
+const db = pgp(process.env.DATABASE_URL);
 const authHelpers = require("./helpers");
 
 const options = {};
